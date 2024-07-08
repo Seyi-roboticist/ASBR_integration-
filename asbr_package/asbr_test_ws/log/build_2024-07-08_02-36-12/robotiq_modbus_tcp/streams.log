@@ -1,0 +1,29 @@
+[0.054s] Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp
+[0.078s] [0mCMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+[0.078s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.078s]   CMake.
+[0.078s] 
+[0.078s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.078s]   CMake that the project does not need compatibility with older versions.
+[0.078s] 
+[0.079s] [0m
+[0.099s] -- Configuring incomplete, errors occurred!
+[0.099s] See also "/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp/CMakeFiles/CMakeOutput.log".
+[0.099s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.100s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.100s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.100s]   CMake did not find one.
+[0.100s] 
+[0.100s]   Could not find a package configuration file provided by "catkin" with any
+[0.100s]   of the following names:
+[0.100s] 
+[0.100s]     catkinConfig.cmake
+[0.100s]     catkin-config.cmake
+[0.100s] 
+[0.100s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.101s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.101s]   provides a separate development package or SDK, be sure it has been
+[0.102s]   installed.
+[0.102s] 
+[0.102s] [0m
+[0.110s] Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp

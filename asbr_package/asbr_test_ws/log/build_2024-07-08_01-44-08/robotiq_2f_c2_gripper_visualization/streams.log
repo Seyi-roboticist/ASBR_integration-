@@ -1,0 +1,29 @@
+[0.040s] Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_2f_c2_gripper_visualization': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_c2_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_c2_gripper_visualization
+[0.063s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.064s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.064s]   CMake.
+[0.066s] 
+[0.066s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.066s]   CMake that the project does not need compatibility with older versions.
+[0.066s] 
+[0.066s] [0m
+[0.075s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.075s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.075s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.075s]   CMake did not find one.
+[0.075s] 
+[0.075s]   Could not find a package configuration file provided by "catkin" with any
+[0.075s]   of the following names:
+[0.075s] 
+[0.075s]     catkinConfig.cmake
+[0.076s]     catkin-config.cmake
+[0.076s] 
+[0.076s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.076s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.076s]   provides a separate development package or SDK, be sure it has been
+[0.076s]   installed.
+[0.076s] 
+[0.076s] [0m
+[0.076s] -- Configuring incomplete, errors occurred!
+[0.076s] See also "/home/srobot/asbr_test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeOutput.log".
+[0.083s] Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_2f_c2_gripper_visualization' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_c2_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_c2_gripper_visualization

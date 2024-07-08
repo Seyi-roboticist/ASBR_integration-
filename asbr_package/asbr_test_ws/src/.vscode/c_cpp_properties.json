@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/srobot/sbr_workspace/install/velocity_controllers/include/**",
+        "/home/srobot/sbr_workspace/install/tricycle_steering_controller/include/**",
+        "/home/srobot/sbr_workspace/install/tricycle_controller/include/**",
+        "/home/srobot/sbr_workspace/install/bicycle_steering_controller/include/**",
+        "/home/srobot/sbr_workspace/install/ackermann_steering_controller/include/**",
+        "/home/srobot/sbr_workspace/install/steering_controllers_library/include/**",
+        "/home/srobot/sbr_workspace/install/position_controllers/include/**",
+        "/home/srobot/sbr_workspace/install/admittance_controller/include/**",
+        "/home/srobot/sbr_workspace/install/joint_trajectory_controller/include/**",
+        "/home/srobot/sbr_workspace/install/joint_state_broadcaster/include/**",
+        "/home/srobot/sbr_workspace/install/imu_sensor_broadcaster/include/**",
+        "/home/srobot/sbr_workspace/install/gripper_controllers/include/**",
+        "/home/srobot/sbr_workspace/install/effort_controllers/include/**",
+        "/home/srobot/sbr_workspace/install/forward_command_controller/include/**",
+        "/home/srobot/sbr_workspace/install/force_torque_sensor_broadcaster/include/**",
+        "/home/srobot/sbr_workspace/install/diff_drive_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/srobot/asbr_test_ws/src/asbr_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

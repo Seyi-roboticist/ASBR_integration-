@@ -1,0 +1,41 @@
+[0.051s] Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp
+[0.073s] [0mCMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+[0.073s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.073s]   CMake.
+[0.073s] 
+[0.073s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.073s]   CMake that the project does not need compatibility with older versions.
+[0.073s] 
+[0.073s] [0m
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.224s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.493s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.493s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.493s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.493s]   CMake did not find one.
+[0.493s] 
+[0.493s]   Could not find a package configuration file provided by "catkin" with any
+[0.493s]   of the following names:
+[0.493s] 
+[0.493s]     catkinConfig.cmake
+[0.493s]     catkin-config.cmake
+[0.494s] 
+[0.494s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.494s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.494s]   provides a separate development package or SDK, be sure it has been
+[0.494s]   installed.
+[0.494s] 
+[0.494s] [0m
+[0.494s] -- Configuring incomplete, errors occurred!
+[0.495s] See also "/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp/CMakeFiles/CMakeOutput.log".
+[0.504s] Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp

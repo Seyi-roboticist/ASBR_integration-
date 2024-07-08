@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found ur_description: 2.1.5 (/home/srobot/ros2_ws/install/ur_description/share/ur_description/cmake)
+-- Found robotiq_2f_85_gripper_visualization: 1.0.0 (/home/srobot/asbr_test_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/srobot/asbr_test_ws/build/asbr_description
+-- Install configuration: ""
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/urdf
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/urdf/asbr.urdf.xacro
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/launch
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/launch/display_asbr_ur5e.launch.xml
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/rviz
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/rviz/asbr_config.rviz
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/ament_index/resource_index/package_run_dependencies/asbr_description
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/ament_index/resource_index/parent_prefix_path/asbr_description
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/environment/ament_prefix_path.sh
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/environment/path.sh
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/environment/path.dsv
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/local_setup.bash
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/local_setup.sh
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/local_setup.zsh
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/local_setup.dsv
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/package.dsv
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/ament_index/resource_index/packages/asbr_description
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/cmake/asbr_descriptionConfig.cmake
+-- Up-to-date: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/cmake/asbr_descriptionConfig-version.cmake
+-- Installing: /home/srobot/asbr_test_ws/install/asbr_description/share/asbr_description/package.xml

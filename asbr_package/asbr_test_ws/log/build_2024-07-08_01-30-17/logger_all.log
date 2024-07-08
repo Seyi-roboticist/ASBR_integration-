@@ -1,0 +1,611 @@
+[0.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.257s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7f7746fd1240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7746fd05e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7746fd05e0>>, mixin_verb=('build',))
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.432s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.433s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/srobot/asbr_test_ws'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'meson', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'meson', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/asbr_description) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/asbr_description' with type 'ros.ament_cmake' and name 'asbr_description'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['cmake', 'meson', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'meson'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq' with type 'ros.catkin' and name 'robotiq'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_140_gripper_visualization) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_2f_140_gripper_visualization' with type 'ros.catkin' and name 'robotiq_2f_140_gripper_visualization'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_85_gripper_visualization) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_2f_85_gripper_visualization' with type 'ros.catkin' and name 'robotiq_2f_85_gripper_visualization'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_c2_gripper_visualization) by extension 'ros'
+[0.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_2f_c2_gripper_visualization' with type 'ros.catkin' and name 'robotiq_2f_c2_gripper_visualization'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_action_server) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_2f_gripper_action_server' with type 'ros.catkin' and name 'robotiq_2f_gripper_action_server'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_2f_gripper_control) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_2f_gripper_control' with type 'ros.catkin' and name 'robotiq_2f_gripper_control'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_gripper_articulated_gazebo' with type 'ros.catkin' and name 'robotiq_3f_gripper_articulated_gazebo'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins' with type 'ros.catkin' and name 'robotiq_3f_gripper_articulated_gazebo_plugins'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_articulated_msgs) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_gripper_articulated_msgs' with type 'ros.catkin' and name 'robotiq_3f_gripper_articulated_msgs'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_control) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_gripper_control' with type 'ros.catkin' and name 'robotiq_3f_gripper_control'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_joint_state_publisher) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_gripper_joint_state_publisher' with type 'ros.catkin' and name 'robotiq_3f_gripper_joint_state_publisher'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_gripper_visualization) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_gripper_visualization' with type 'ros.catkin' and name 'robotiq_3f_gripper_visualization'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_3f_rviz) by extension 'ros'
+[0.464s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_3f_rviz' with type 'ros.catkin' and name 'robotiq_3f_rviz'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ethercat) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_ethercat' with type 'ros.catkin' and name 'robotiq_ethercat'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_ft_sensor) by extension 'ros'
+[0.466s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_ft_sensor' with type 'ros.catkin' and name 'robotiq_ft_sensor'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_rtu) by extension 'ros'
+[0.467s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_modbus_rtu' with type 'ros.catkin' and name 'robotiq_modbus_rtu'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description/robotiq_modbus_tcp) by extension 'ros'
+[0.468s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description/robotiq_modbus_tcp' with type 'ros.catkin' and name 'robotiq_modbus_tcp'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ros'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.488s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.489s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/srobot/temp_asbr_ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.489s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/srobot/temp_asbr_ros2_ws/install/asbr_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.490s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/srobot/temp_asbr_ros2_ws/install/asbr_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 24 installed packages in /home/srobot/sbr_workspace/install
+[0.491s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/srobot/ros2_ws/install
+[0.492s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/srobot/rahman_ros2_ws/install
+[0.492s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/srobot/seyi_ros2_ws/install
+[0.494s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 482 installed packages in /opt/ros/humble
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.551s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ur_description' is in: /home/srobot/ros2_ws/install/ur_description, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ur_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'meson_args' from command line to '[]'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_140_gripper_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_140_gripper_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_2f_140_gripper_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_2f_140_gripper_visualization', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_140_gripper_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'meson_args' from command line to '[]'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_85_gripper_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_85_gripper_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_2f_85_gripper_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_2f_85_gripper_visualization', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'meson_args' from command line to '[]'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.588s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_c2_gripper_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.588s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_c2_gripper_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_2f_c2_gripper_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_2f_c2_gripper_visualization', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_c2_gripper_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'cmake_target' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'meson_args' from command line to '[]'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.600s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_articulated_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_articulated_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'cmake_target' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'meson_args' from command line to '[]'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_visualization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_visualization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_visualization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_visualization', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_visualization', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'meson_args' from command line to '[]'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ethercat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_ethercat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_ethercat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_ethercat', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat', 'symlink_install': False, 'test_result_base': None}
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'cmake_target' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'meson_args' from command line to '[]'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'robotiq_ft_sensor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_ft_sensor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_ft_sensor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_ft_sensor', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ft_sensor', 'symlink_install': False, 'test_result_base': None}
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'meson_args' from command line to '[]'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'ament_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_rtu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_modbus_rtu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_modbus_rtu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_modbus_rtu', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_rtu', 'symlink_install': False, 'test_result_base': None}
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'cmake_target' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'cmake_clean_first' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'cmake_force_configure' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'meson_args' from command line to '[]'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'ament_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robotiq_modbus_tcp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_modbus_tcp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp', 'symlink_install': False, 'test_result_base': None}
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.672s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'meson_args' from command line to '[]'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.673s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/ur_description', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/ur_description', 'symlink_install': False, 'test_result_base': None}
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'cmake_target' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'meson_args' from command line to '[]'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'asbr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.685s] DEBUG:colcon.colcon_core.verb:Building package 'asbr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/asbr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/asbr_description', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/asbr_description', 'symlink_install': False, 'test_result_base': None}
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'cmake_args' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'cmake_target' from command line to 'None'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.696s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'meson_args' from command line to '[]'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.697s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_gripper_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_2f_gripper_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_2f_gripper_control', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_gripper_control', 'symlink_install': False, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'meson_args' from command line to '[]'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_articulated_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_articulated_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_gazebo', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.719s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'meson_args' from command line to '[]'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_articulated_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.720s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_articulated_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_articulated_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_gazebo_plugins', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.745s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'cmake_target' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'meson_args' from command line to '[]'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.746s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.746s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_control', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_control', 'symlink_install': False, 'test_result_base': None}
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'cmake_target' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'cmake_clean_cache' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'cmake_clean_first' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'cmake_force_configure' from command line to 'False'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'meson_args' from command line to '[]'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'ament_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'catkin_cmake_args' from command line to 'None'
+[0.758s] Level 5:colcon.colcon_core.verb:set package 'robotiq' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.758s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq', 'symlink_install': False, 'test_result_base': None}
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'cmake_target' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'meson_args' from command line to '[]'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'robotiq_2f_gripper_action_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.770s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_2f_gripper_action_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_2f_gripper_action_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_2f_gripper_action_server', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_gripper_action_server', 'symlink_install': False, 'test_result_base': None}
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'cmake_target' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'meson_args' from command line to '[]'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_gripper_joint_state_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_gripper_joint_state_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_joint_state_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_joint_state_publisher', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_joint_state_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'cmake_target' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'meson_args' from command line to '[]'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'robotiq_3f_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.794s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_3f_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/srobot/asbr_test_ws/build/robotiq_3f_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/srobot/asbr_test_ws/install/robotiq_3f_rviz', 'merge_install': False, 'meson_args': [], 'path': '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.794s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.795s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.795s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat' with build type 'catkin'
+[0.796s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat'
+[0.798s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.804s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_msgs' with build type 'catkin'
+[0.804s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_msgs'
+[0.804s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.811s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_visualization' with build type 'catkin'
+[0.811s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_visualization'
+[0.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.818s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ft_sensor' with build type 'catkin'
+[0.818s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ft_sensor'
+[0.818s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.818s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp' with build type 'catkin'
+[0.824s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp'
+[0.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/srobot/asbr_test_ws/src/ur_description' with build type 'ament_cmake'
+[0.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/ur_description'
+[0.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.837s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_140_gripper_visualization' with build type 'catkin'
+[0.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_140_gripper_visualization'
+[0.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.843s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization' with build type 'catkin'
+[0.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization'
+[0.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.849s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_c2_gripper_visualization' with build type 'catkin'
+[0.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_c2_gripper_visualization'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.857s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_rtu' with build type 'catkin'
+[0.857s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_rtu'
+[0.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_ethercat': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ethercat
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_articulated_msgs': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_visualization': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_visualization
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_ft_sensor': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ft_sensor -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ft_sensor
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/home/srobot/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/srobot/asbr_test_ws/build/ur_description -- -j12 -l12
+[0.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_2f_140_gripper_visualization': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_140_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_140_gripper_visualization
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_2f_85_gripper_visualization': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_85_gripper_visualization
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_2f_c2_gripper_visualization': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_c2_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_c2_gripper_visualization
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_rtu': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_rtu -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_rtu
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/home/srobot/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/srobot/asbr_test_ws/build/ur_description -- -j12 -l12
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/srobot/asbr_test_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/home/srobot/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/srobot/asbr_test_ws/build/ur_description
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_ethercat' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ethercat
+[1.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[1.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_articulated_msgs' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_articulated_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/ur_description' for CMake module files
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/ur_description' for CMake config files
+[1.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/ur_description/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/ur_description/lib/pkgconfig/ur_description.pc'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/ur_description/lib/python3.10/site-packages'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/ur_description/bin'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/package.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/package.dsv'
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/home/srobot/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/srobot/asbr_test_ws/build/ur_description
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/ur_description/share/ur_description/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srobot/asbr_test_ws/install/ur_description/share/colcon-core/packages/ur_description)
+[1.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_3f_gripper_visualization' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_3f_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_visualization
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_2f_85_gripper_visualization' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_85_gripper_visualization
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_2f_140_gripper_visualization' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_140_gripper_visualization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_2f_140_gripper_visualization
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_modbus_tcp' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_modbus_tcp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_modbus_tcp
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_ethercat)
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_ethercat' for CMake module files
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_ethercat' for CMake config files
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_ethercat/bin'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_ethercat/lib/pkgconfig/robotiq_ethercat.pc'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_ethercat/lib/python3.10/site-packages'
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_ethercat/bin'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_ethercat/share/robotiq_ethercat/package.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srobot/asbr_test_ws/install/robotiq_ethercat/share/robotiq_ethercat/package.dsv'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_ethercat/share/robotiq_ethercat/package.sh'
+[1.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_ethercat/share/robotiq_ethercat/package.bash'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_ethercat/share/robotiq_ethercat/package.zsh'
+[1.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srobot/asbr_test_ws/install/robotiq_ethercat/share/colcon-core/packages/robotiq_ethercat)
+[1.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_3f_gripper_articulated_msgs)
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs' for CMake module files
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs' for CMake config files
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/bin'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/lib/pkgconfig/robotiq_3f_gripper_articulated_msgs.pc'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/lib/python3.10/site-packages'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/bin'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/share/robotiq_3f_gripper_articulated_msgs/package.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/share/robotiq_3f_gripper_articulated_msgs/package.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/share/robotiq_3f_gripper_articulated_msgs/package.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/share/robotiq_3f_gripper_articulated_msgs/package.bash'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/share/robotiq_3f_gripper_articulated_msgs/package.zsh'
+[1.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/srobot/asbr_test_ws/install/robotiq_3f_gripper_articulated_msgs/share/colcon-core/packages/robotiq_3f_gripper_articulated_msgs)
+[1.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.352s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.358s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.370s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srobot/asbr_test_ws/install/local_setup.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srobot/asbr_test_ws/install/_local_setup_util_ps1.py'
+[1.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srobot/asbr_test_ws/install/setup.ps1'
+[1.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srobot/asbr_test_ws/install/local_setup.sh'
+[1.375s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/srobot/asbr_test_ws/install/_local_setup_util_sh.py'
+[1.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srobot/asbr_test_ws/install/setup.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srobot/asbr_test_ws/install/local_setup.bash'
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srobot/asbr_test_ws/install/setup.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/srobot/asbr_test_ws/install/local_setup.zsh'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/srobot/asbr_test_ws/install/setup.zsh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating '/home/srobot/asbr_test_ws/install/spawn_shell.bash'

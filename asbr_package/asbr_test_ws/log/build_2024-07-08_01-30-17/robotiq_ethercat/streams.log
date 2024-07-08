@@ -1,0 +1,41 @@
+[0.072s] Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_ethercat': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ethercat
+[0.093s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.093s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.094s]   CMake.
+[0.094s] 
+[0.095s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.095s]   CMake that the project does not need compatibility with older versions.
+[0.096s] 
+[0.097s] [0m
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.339s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.447s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.459s] -- Detecting CXX compile features
+[0.459s] -- Detecting CXX compile features - done
+[0.475s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.475s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.475s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.475s]   CMake did not find one.
+[0.475s] 
+[0.476s]   Could not find a package configuration file provided by "catkin" with any
+[0.476s]   of the following names:
+[0.476s] 
+[0.476s]     catkinConfig.cmake
+[0.476s]     catkin-config.cmake
+[0.476s] 
+[0.476s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.476s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.476s]   provides a separate development package or SDK, be sure it has been
+[0.476s]   installed.
+[0.476s] 
+[0.477s] [0m
+[0.477s] -- Configuring incomplete, errors occurred!
+[0.477s] See also "/home/srobot/asbr_test_ws/build/robotiq_ethercat/CMakeFiles/CMakeOutput.log".
+[0.480s] Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_ethercat' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ethercat

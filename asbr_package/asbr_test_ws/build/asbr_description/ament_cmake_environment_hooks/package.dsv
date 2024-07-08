@@ -1,0 +1,4 @@
+source;share/asbr_description/local_setup.bash
+source;share/asbr_description/local_setup.dsv
+source;share/asbr_description/local_setup.sh
+source;share/asbr_description/local_setup.zsh
