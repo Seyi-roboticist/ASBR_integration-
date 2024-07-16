@@ -14,6 +14,11 @@
     <xacro:arg name="safety_pos_margin" default="0.15"/>
     <xacro:arg name="safety_k_position" default="20"/>
     <xacro:arg name="force_abs_paths" default="false"/>
+    
+    <xacro:arg name="initial_positions_file" default="$(find ur_description)/config/initial_positions.yaml"/>
+
+    <!-- Load initial positions from YAML file -->
+    <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['joint_positions']}"></xacro:property>
 
     <!-- Include the ur.urdf.xacro file -->
     <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>

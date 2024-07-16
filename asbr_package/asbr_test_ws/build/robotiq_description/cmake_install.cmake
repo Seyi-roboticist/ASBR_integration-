@@ -1,8 +1,8 @@
-# Install script for directory: /home/srobot/asbr_test_ws/src/robotiq_description
+# Install script for directory: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/robotiq_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/srobot/asbr_test_ws/install/robotiq_description")
+  set(CMAKE_INSTALL_PREFIX "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,19 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/robotiq_2f_85_gripper_visualization" TYPE DIRECTORY FILES "/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE DIRECTORY FILES
+    "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/robotiq_description/meshes"
+    "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/robotiq_description/urdf"
+    "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/robotiq_description/launch"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/robotiq_2f_85_gripper_visualization" TYPE DIRECTORY FILES "/home/srobot/asbr_test_ws/src/robotiq_description/robotiq_2f_85_gripper_visualization/urdf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotiq_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robotiq_description")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotiq_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robotiq_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/environment" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/environment" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,42 +71,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/environment" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/environment" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/packages/robotiq_description")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_index/share/ament_index/resource_index/packages/robotiq_description")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description/cmake" TYPE FILE FILES
-    "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_core/robotiq_descriptionConfig.cmake"
-    "/home/srobot/asbr_test_ws/build/robotiq_description/ament_cmake_core/robotiq_descriptionConfig-version.cmake"
+    "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_core/robotiq_descriptionConfig.cmake"
+    "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/ament_cmake_core/robotiq_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/asbr_test_ws/src/robotiq_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robotiq_description" TYPE FILE FILES "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/robotiq_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/srobot/asbr_test_ws/build/robotiq_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/robotiq_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

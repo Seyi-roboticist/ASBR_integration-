@@ -1,9 +1,0 @@
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/uninstall.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/ur_description_uninstall.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/test.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/edit_cache.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/rebuild_cache.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/list_install_components.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/install.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/install/local.dir
-/home/srobot/asbr_test_ws/build/ur_description/CMakeFiles/install/strip.dir

@@ -1,2 +1,0 @@
-Invoking command in '/home/srobot/asbr_test_ws/build/robotiq_ethercat': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ethercat
-Invoked command in '/home/srobot/asbr_test_ws/build/robotiq_ethercat' returned '1': /usr/bin/cmake /home/srobot/asbr_test_ws/src/robotiq_description/robotiq_ethercat -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srobot/asbr_test_ws/install/robotiq_ethercat

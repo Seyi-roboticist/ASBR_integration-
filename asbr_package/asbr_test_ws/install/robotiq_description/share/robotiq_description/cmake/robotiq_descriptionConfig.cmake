@@ -16,7 +16,7 @@ set(_robotiq_description_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT robotiq_description_FIND_QUIETLY)
-  message(STATUS "Found robotiq_description: 0.0.1 (${robotiq_description_DIR})")
+  message(STATUS "Found robotiq_description: 0.0.0 (${robotiq_description_DIR})")
 endif()
 
 # warn when using a deprecated package
