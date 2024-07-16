@@ -1,4 +1,3 @@
-ls 
 <?xml version="1.0"?>
 <robot name="ur5e_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
     <!-- Developer: Seyi R. Afolayan -->
@@ -20,7 +19,7 @@ ls
     <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
 
     <!-- Include the Robotiq 2F-85 gripper -->
-    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model.xacro"/>
+    <xacro:include filename="$(find robotiq_description)/urdf/robotiq_arg2f_85_model.xacro"/>
 
     <!-- Connecting UR5e end-effector to gripper -->
     <joint name="end_effector_gripper_joint" type="fixed">
