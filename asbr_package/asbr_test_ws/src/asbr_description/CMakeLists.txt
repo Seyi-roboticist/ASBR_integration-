@@ -9,7 +9,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(xacro REQUIRED)
 find_package(ur_description REQUIRED)
-find_package(robotiq_2f_85_gripper_visualization REQUIRED) 
+find_package(robotiq_description REQUIRED) 
+find_package(realsense2_description REQUIRED)
 
 # Install directories 
 install(

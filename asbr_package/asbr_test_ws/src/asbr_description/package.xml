@@ -8,8 +8,9 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>ur_description</depend>
-  <depend>robotiq_2f_85_gripper_visualization</depend>
+  <depend>robotiq_description</depend>
   <depend>xacro</depend>
+  <depend>realsense2_description</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
