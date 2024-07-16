@@ -1,6 +1,7 @@
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/asbr_description/urdf/asbr.urdf.xacro
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/asbr_description/urdf/robot_gripper_adapter.xacro
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/asbr_description/launch/display_asbr_ur5e.launch.xml
+/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/asbr_description/rviz/asbr_UR5e.rviz
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/ament_index/resource_index/package_run_dependencies/asbr_description
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/ament_index/resource_index/parent_prefix_path/asbr_description
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/asbr_description/share/asbr_description/environment/ament_prefix_path.sh

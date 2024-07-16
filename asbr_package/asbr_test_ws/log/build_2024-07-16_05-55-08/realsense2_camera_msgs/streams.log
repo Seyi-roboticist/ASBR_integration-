@@ -1,0 +1,361 @@
+[0.028s] Invoking command in '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/ros2_ws/install/my_py_pkg:/home/srobot/sbr_workspace/install/demo1:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/realsense_description/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.138s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.296s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.574s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.601s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.728s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.756s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.794s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.236s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.242s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.249s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.255s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.931s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.936s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.963s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.964s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.964s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.964s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.983s] -- Found PythonExtra: .so  
+[2.088s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.094s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.103s] -- Configuring done
+[2.143s] -- Generating done
+[2.146s] -- Build files have been written to: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs
+[2.155s] Invoked command in '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/ros2_ws/install/my_py_pkg:/home/srobot/sbr_workspace/install/demo1:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/src/realsense_description/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs
+[2.155s] Invoking command in '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/ros2_ws/install/my_py_pkg:/home/srobot/sbr_workspace/install/demo1:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs -- -j12 -l12
+[2.193s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.203s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.211s] [  3%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[2.494s] running egg_info
+[2.494s] creating realsense2_camera_msgs.egg-info
+[2.495s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[2.495s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[2.495s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[2.495s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.497s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.497s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[2.519s] [  3%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[2.725s] [  3%] Built target realsense2_camera_msgs__cpp
+[2.735s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.737s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.737s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.746s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[2.746s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o[0m
+[2.746s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[2.747s] [ 14%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[2.747s] [ 15%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[2.805s] [ 17%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so[0m
+[2.841s] [ 17%] Built target realsense2_camera_msgs__rosidl_generator_c
+[2.852s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.852s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.852s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.189s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[3.189s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[3.189s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[3.189s] [ 28%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[3.189s] [ 30%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[3.257s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[3.263s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[3.292s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[3.294s] [ 36%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[3.304s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[3.305s] [ 39%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[3.317s] [ 41%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[3.338s] [ 42%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[3.395s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[3.444s] [ 46%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so[0m
+[3.490s] [ 47%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[3.512s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[3.526s] [ 49%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[3.527s] [ 50%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[3.555s] [ 52%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[3.580s] [ 53%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[3.587s] [ 55%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[3.589s] [ 57%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[3.591s] [ 58%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[3.596s] [ 60%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[3.601s] [ 61%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so[0m
+[3.631s] [ 63%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[3.666s] [ 65%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[3.667s] [ 65%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[3.683s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[3.720s] [ 68%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.771s] [ 68%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[3.786s] [ 69%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[3.884s] [ 71%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[3.892s] [ 73%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o[0m
+[3.914s] [ 74%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o[0m
+[4.265s] [ 76%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.324s] [ 77%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.338s] [ 77%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[4.385s] [ 79%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.393s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[4.451s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[4.472s] [ 79%] Built target realsense2_camera_msgs
+[4.493s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.289s] [ 80%] Built target realsense2_camera_msgs__py
+[5.309s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o[0m
+[5.309s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o[0m
+[5.309s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o[0m
+[5.309s] [ 87%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o[0m
+[5.309s] [ 88%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o[0m
+[5.412s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so[0m
+[5.451s] [ 90%] Built target realsense2_camera_msgs__rosidl_generator_py
+[5.472s] [ 95%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.472s] [ 95%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.472s] [ 95%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.575s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.575s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.576s] [100%] [32m[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.616s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[5.616s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.616s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[5.627s] Invoked command in '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/ros2_ws/install/my_py_pkg:/home/srobot/sbr_workspace/install/demo1:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs -- -j12 -l12
+[5.864s] Invoking command in '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/ros2_ws/install/my_py_pkg:/home/srobot/sbr_workspace/install/demo1:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs
+[5.881s] -- Install configuration: ""
+[5.881s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[5.881s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[5.881s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[5.882s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[5.882s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[5.882s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[5.883s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[5.883s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[5.883s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[5.883s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[5.883s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[5.883s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[5.884s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.884s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[5.884s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[5.884s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[5.884s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[5.884s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[5.885s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[5.885s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.c
+[5.885s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[5.885s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[5.885s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[5.885s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[5.886s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[5.887s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so" to ""
+[5.887s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[5.887s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[5.887s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[5.887s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[5.887s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[5.887s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.887s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[5.887s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[5.887s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[5.887s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[5.888s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[5.888s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[5.888s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.888s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[5.888s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[5.888s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[5.888s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[5.888s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[5.888s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[5.888s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[5.888s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[5.888s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[5.889s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.889s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[5.889s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so" to ""
+[5.889s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[5.889s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[5.889s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[5.890s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[5.890s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[5.890s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[5.891s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[5.891s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[5.891s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[5.891s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.892s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.892s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.892s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.892s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[5.892s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[5.892s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[5.892s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[5.893s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[5.893s] -- Up-to-date: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[5.893s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.893s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[5.894s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/SOURCES.txt
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/dependency_links.txt
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/top_level.txt
+[5.894s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.55.1-py3.10.egg-info/PKG-INFO
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.895s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.896s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so
+[5.933s] Listing '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...
+[5.933s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py'...
+[5.933s] Listing '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...
+[5.933s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py'...
+[5.933s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py'...
+[5.933s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py'...
+[5.934s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py'...
+[5.934s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_rgbd.py'...
+[5.934s] Listing '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...
+[5.934s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py'...
+[5.934s] Compiling '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py'...
+[5.937s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.937s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.937s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.938s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.938s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.938s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.938s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[5.938s] -- Set runtime path of "/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so" to ""
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[5.939s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[5.940s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.941s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.942s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.943s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.944s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.944s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.944s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.944s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[5.944s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[5.944s] -- Installing: /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[5.947s] Invoked command in '/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/srobot/ros2_ws/install/my_py_pkg:/home/srobot/sbr_workspace/install/demo1:/home/srobot/sbr_workspace/install/rqt_joint_trajectory_controller:/home/srobot/sbr_workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/build/realsense2_camera_msgs
