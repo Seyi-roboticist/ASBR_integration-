@@ -15,13 +15,25 @@
     <xacro:arg name="safety_k_position" default="20"/>
     <xacro:arg name="force_abs_paths" default="false"/>
     
+    <!-- Necessary modules (macros) to use-->
     <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
     <xacro:include filename="$(find robotiq_description)/urdf/robotiq_arg2f_85_model.xacro"/>
     <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro"/>
+    <xacro:include filename="$(find robotiq_description)/urdf/asbr_UR5e_adapter.xacro"/>
+
+    <!-- Using the adapter macro I seriously modified -->
+    <xacro:adapter prefix="UR5e_gripper"/>
+
+    <!-- Connecting the end-effector to the adapter firsr before the gripper -->
+     <joint name="end_effector_adapter_joint" type="fixed">
+        <parent link="tool0"/>
+        <child link="UR5e_gripper_adapter"/>
+        <origin xyz="0 0 0" rpy="0 0 0"></origin>
+     </joint>
 
     <!-- Connecting UR5e end-effector to gripper -->
-    <joint name="end_effector_gripper_joint" type="fixed">
-        <parent link="tool0"/>
+    <joint name="UR5e_adapter_gripper_joint" type="fixed">
+        <parent link="UR5e_gripper_adapter"/>
         <child link="robotiq_arg2f_base_link"/>
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>

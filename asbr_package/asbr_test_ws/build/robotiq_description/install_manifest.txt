@@ -13,6 +13,7 @@
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/meshes/visual/robotiq_arg2f_85_base_link.dae
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_arg2f_85_model.xacro
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_arg2f_85_model_macro.xacro
+/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/urdf/asbr_UR5e_adapter.xacro
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_arg2f.xacro
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_arg2f_transmission.xacro
 /home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/launch/test_2f_85_model.launch
