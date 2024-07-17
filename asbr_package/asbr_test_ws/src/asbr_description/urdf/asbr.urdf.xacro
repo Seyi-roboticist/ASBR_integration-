@@ -31,7 +31,7 @@
         <origin xyz="0 0 0" rpy="0 0 0"></origin>
      </joint>
 
-    <!-- Connecting UR5e end-effector to gripper -->
+    <!-- Connecting UR5e adapter to gripper -->
     <joint name="UR5e_adapter_gripper_joint" type="fixed">
         <parent link="UR5e_gripper_adapter"/>
         <child link="robotiq_arg2f_base_link"/>
