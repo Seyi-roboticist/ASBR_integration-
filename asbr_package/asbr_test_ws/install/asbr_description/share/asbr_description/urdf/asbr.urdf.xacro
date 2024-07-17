@@ -15,11 +15,9 @@
     <xacro:arg name="safety_k_position" default="20"/>
     <xacro:arg name="force_abs_paths" default="false"/>
     
-    <!-- Include the ur.urdf.xacro file -->
     <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
-
-    <!-- Include the Robotiq 2F-85 gripper -->
     <xacro:include filename="$(find robotiq_description)/urdf/robotiq_arg2f_85_model.xacro"/>
+    <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro"/>
 
     <!-- Connecting UR5e end-effector to gripper -->
     <joint name="end_effector_gripper_joint" type="fixed">
@@ -28,9 +26,19 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
 
-    <!-- Include the D435 sensor -->
-    <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro"/>
+    <!-- Adding the intermediate link between the end effector and the sensor for potentially camera adapters-->
+    <link name="camera_link">
+    </link>
 
-    <!-- Connecting D435 to UR5e -->
-    <xacro:sensor_d435 parent="robotiq_arg2f_base_link" name="d435" origin="xyz='0 0 0.1' rpy='0 0 0'" use_nominal_extrinsics="true" add_plug="true" use_mesh="true"/>
+    <joint name="camera_joint" type="fixed">
+        <axis xyz="0 0 1"/>
+        <origin xyz="-0.015 -0.05 0.015" rpy="0 0 0"/>
+        <parent link="tool0"/>
+        <child link="camera_link"/>
+    </joint>
+
+    <!-- Connecting the camera sensor to the camera link -->
+    <xacro:sensor_d435 parent="tool0" name="d435" use_nominal_extrinsics="true" add_plug="true" use_mesh="true"> <!-- The parent can also be camera_link -->
+        <origin xyz="0.0 -0.06 0.0" rpy="-1.5708 -1.5708 0"/>
+    </xacro:sensor_d435>
 </robot>
