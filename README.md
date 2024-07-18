@@ -79,33 +79,9 @@ colcon build --packages-select asbr_description ur_description robotiq_2f_85_gri
 
 To visualize the integrated demo in RViz, you can create a launch file that includes the necessary components. Here is an example launch file:
 
-```xml
-<launch>
-    <arg name="use_sim_time" default="true" />
-    <arg name="urdf_file" default="$(find ur_description)/urdf/ur5_robot.urdf.xacro" />
-    <param name="robot_description" command="$(find xacro)/xacro $(arg urdf_file)" />
-    
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ur_description)/launch/ur5.rviz" />
-</launch>
 ```
-
-Save this file as `demo.launch` in your `launch` directory and run it using:
-
-```bash
-ros2 launch <package_name> demo.launch
+ros2 launch asbr_description display_asbr_ur5e.launch.xml
 ```
-
-Replace `<package_name>` with the appropriate package containing the launch file.
-
-## Contributing
-
-Contributions are welcome! Please follow the standard GitHub flow for contributions:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a Pull Request.
 
 ## License
 
