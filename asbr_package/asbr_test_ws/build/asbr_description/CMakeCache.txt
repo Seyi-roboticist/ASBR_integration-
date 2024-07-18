@@ -298,17 +298,11 @@ asbr_description_SOURCE_DIR:STATIC=/home/srobot/ASBR_demo_integration/asbr_packa
 //The directory containing a CMake configuration file for realsense2_description.
 realsense2_description_DIR:PATH=/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/realsense2_description/share/realsense2_description/cmake
 
-//The directory containing a CMake configuration file for realsense_description.
-realsense_description_DIR:PATH=realsense_description_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for robotiq_2f_85_gripper_visualization.
-robotiq_2f_85_gripper_visualization_DIR:PATH=/home/srobot/asbr_test_ws/install/robotiq_2f_85_gripper_visualization/share/robotiq_2f_85_gripper_visualization/cmake
-
 //The directory containing a CMake configuration file for robotiq_description.
-robotiq_description_DIR:PATH=/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/robotiq_description/share/robotiq_description/cmake
+robotiq_description_DIR:PATH=/opt/ros/humble/share/robotiq_description/cmake
 
 //The directory containing a CMake configuration file for ur_description.
-ur_description_DIR:PATH=/home/srobot/rmp_workspace/install/ur_description/share/ur_description/cmake
+ur_description_DIR:PATH=/home/srobot/ASBR_demo_integration/asbr_package/asbr_test_ws/install/ur_description/share/ur_description/cmake
 
 //The directory containing a CMake configuration file for xacro.
 xacro_DIR:PATH=/opt/ros/humble/share/xacro/cmake

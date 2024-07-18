@@ -17,9 +17,9 @@
     
     <!-- Necessary modules (macros) to use-->
     <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
-    <xacro:include filename="$(find robotiq_description)/urdf/robotiq_arg2f_85_model.xacro"/>
+    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model.xacro"/>
     <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro"/>
-    <xacro:include filename="$(find robotiq_description)/urdf/asbr_UR5e_adapter.xacro"/>
+    <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/asbr_UR5e_adapter.xacro"/>
 
     <!-- Using the adapter macro I seriously modified -->
     <xacro:adapter prefix="UR5e_gripper"/>
