@@ -1,56 +1,48 @@
-# ASBR Integration
+Sure, I'll include the provided launch file information in the README:
 
-This repository provides an integration for the ASBR package, including URDF descriptions and visualizations for various robotic components. The integration includes support for Universal Robots, Robotiq grippers, and RealSense cameras.
-
-## Repository Structure
-
-```
-
-Got it, I'll update the README content to reflect the actual repository structure based on the provided image.
-
-markdown
-Copy code
+```markdown
 # ASBR Integration
 
 This repository provides a demo integration for the ASBR package, including URDF descriptions and visualizations for various robotic components. The integration includes support for Universal Robots, Robotiq grippers, and RealSense cameras.
 
 ## Repository Structure
 
+```
 ASBR_integration-/
 ├── asbr_package/
-│ └── asbr_test_ws/
-│ ├── src/
-│ │ ├── asbr_description/
-│ │ │ ├── config/
-│ │ │ ├── launch/
-│ │ │ ├── rviz/
-│ │ │ └── urdf/
-│ │ │ ├── CMakeLists.txt
-│ │ │ └── package.xml
-│ │ ├── realsense2_description/
-│ │ │ ├── .github/
-│ │ │ ├── launch/
-│ │ │ ├── meshes/
-│ │ │ ├── rviz/
-│ │ │ └── urdf/
-│ │ │ ├── CMakeLists.txt
-│ │ │ └── package.xml
-│ │ ├── robotiq_description/
-│ │ │ ├── robotiq/
-│ │ │ ├── robotiq_2f_85_gripper_visualization/
-│ │ │ │ ├── launch/
-│ │ │ │ ├── meshes/
-│ │ │ │ └── urdf/
-│ │ │ │ ├── robotiq_adapter.xacro
-│ │ │ │ ├── robotiq_arg2f_85_model_macro.xacro
-│ │ │ │ ├── robotiq_arg2f_85_model.xacro
-│ │ │ │ ├── robotiq_arg2f_transmission.xacro
-│ │ │ │ └── robotiq_arg2f.xacro
-│ │ │ ├── CMakeLists.txt
-│ │ │ └── package.xml
-│ ├── build/
-│ ├── install/
-│ └── log/
+│   └── asbr_test_ws/
+│       ├── src/
+│       │   ├── asbr_description/
+│       │   │   ├── config/
+│       │   │   ├── launch/
+│       │   │   ├── rviz/
+│       │   │   └── urdf/
+│       │   │       ├── CMakeLists.txt
+│       │   │       └── package.xml
+│       │   ├── realsense2_description/
+│       │   │   ├── .github/
+│       │   │   ├── launch/
+│       │   │   ├── meshes/
+│       │   │   ├── rviz/
+│       │   │   └── urdf/
+│       │   │       ├── CMakeLists.txt
+│       │   │       └── package.xml
+│       │   ├── robotiq_description/
+│       │   │   ├── robotiq/
+│       │   │   ├── robotiq_2f_85_gripper_visualization/
+│       │   │   │   ├── launch/
+│       │   │   │   ├── meshes/
+│       │   │   │   └── urdf/
+│       │   │   │       ├── robotiq_adapter.xacro
+│       │   │   │       ├── robotiq_arg2f_85_model_macro.xacro
+│       │   │   │       ├── robotiq_arg2f_85_model.xacro
+│       │   │   │       ├── robotiq_arg2f_transmission.xacro
+│       │   │   │       └── robotiq_arg2f.xacro
+│       │   │   ├── CMakeLists.txt
+│       │   │   └── package.xml
+│       ├── build/
+│       ├── install/
+│       └── log/
 ├── .gitignore
 ├── CONTRIBUTING.md
 ├── Intel Copyright
@@ -86,25 +78,11 @@ colcon build --packages-select asbr_description ur_description robotiq_2f_85_gri
 
 ## Launching the Demo
 
-To visualize the integrated demo in RViz, you can create a launch file that includes the necessary components. Here is an example launch file:
-
-```xml
-<launch>
-    <arg name="use_sim_time" default="true" />
-    <arg name="urdf_file" default="$(find ur_description)/urdf/ur5_robot.urdf.xacro" />
-    <param name="robot_description" command="$(find xacro)/xacro $(arg urdf_file)" />
-    
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ur_description)/launch/ur5.rviz" />
-</launch>
-```
-
-Save this file as `demo.launch` in your `launch` directory and run it using:
+To visualize the integrated demo in RViz, use the provided launch file:
 
 ```bash
-ros2 launch <package_name> demo.launch
+ros2 launch asbr_description display_asbr_ur5e.launch.xml
 ```
-
-Replace `<package_name>` with the appropriate package containing the launch file.
 
 ## Contributing
 
@@ -127,3 +105,6 @@ For questions or issues, please open an issue on GitHub or contact Seyi R. Afola
 ---
 
 This README file provides the necessary steps to set up and run the ASBR demo integration. For further details or updates, refer to the repository: [ASBR Integration](https://github.com/Seyi-roboticist/ASBR_integration-.git).
+```
+
+You can copy this content and paste it into your `README.md` file.
