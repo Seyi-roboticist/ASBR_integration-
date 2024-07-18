@@ -1,6 +1,6 @@
 # ASBR Integration
 
-This repository provides a demo integration for the ASBR package, including URDF descriptions and visualizations for various robotic components. The integration includes support for Universal Robots, Robotiq grippers, and RealSense cameras.
+This repo provides a clean integration for the ASBR package, including URDF descriptions and visualizations for various robotic components. The integration includes support for Universal Robots, Robotiq grippers, and RealSense cameras. Please be aware this integration is still currently under development.
 
 ## Repository Structure
 
@@ -94,3 +94,4 @@ For questions or issues, please open an issue on GitHub or contact Seyi R. Afola
 ---
 
 This README file provides the necessary steps to set up and run the ASBR demo integration. For further details or updates, refer to the repository: [ASBR Integration](https://github.com/Seyi-roboticist/ASBR_integration-.git).
+Further work will include gazebo, ROS2 control and much more. 
