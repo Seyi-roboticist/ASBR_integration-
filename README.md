@@ -70,14 +70,14 @@ colcon build --packages-select asbr_description ur_description robotiq_2f_85_gri
 
 ## Package Descriptions
 
-- **asbr_description**: Contains URDF and description files specific to the ASBR demo.
+- **asbr_description**: Contains URDF and description files specific to the ASBR course.
 - **ur_description**: Includes URDF and description files for Universal Robots.
 - **robotiq_2f_85_gripper_visualization**: Provides URDF and visualization files for the Robotiq 2F-85 gripper.
 - **realsense2_description**: Contains URDF and description files for Intel RealSense cameras.
 
 ## Launching the Demo
 
-To visualize the integrated demo in RViz, you can create a launch file that includes the necessary components. Here is an example launch file:
+To visualize the integrated demo in RViz, use the xml launch file I created by running the below command:
 
 ```
 ros2 launch asbr_description display_asbr_ur5e.launch.xml
