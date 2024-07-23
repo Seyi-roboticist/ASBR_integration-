@@ -1,0 +1,17 @@
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/rviz/asbr_UR5e.rviz
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/launch/ur5e_cobot_gazebo.launch.xml
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ament_index/resource_index/package_run_dependencies/ur5e_cobot_bringup
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ament_index/resource_index/parent_prefix_path/ur5e_cobot_bringup
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/environment/ament_prefix_path.sh
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/environment/ament_prefix_path.dsv
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/environment/path.sh
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/environment/path.dsv
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/local_setup.bash
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/local_setup.sh
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/local_setup.zsh
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/local_setup.dsv
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/package.dsv
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ament_index/resource_index/packages/ur5e_cobot_bringup
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/cmake/ur5e_cobot_bringupConfig.cmake
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/cmake/ur5e_cobot_bringupConfig-version.cmake
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/package.xml
