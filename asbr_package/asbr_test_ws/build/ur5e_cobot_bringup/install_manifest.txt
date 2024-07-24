@@ -1,5 +1,6 @@
 /home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/rviz/asbr_UR5e.rviz
 /home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/launch/ur5e_cobot_gazebo.launch.xml
+/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/config/ur5e_controller.yaml
 /home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ament_index/resource_index/package_run_dependencies/ur5e_cobot_bringup
 /home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ament_index/resource_index/parent_prefix_path/ur5e_cobot_bringup
 /home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/install/ur5e_cobot_bringup/share/ur5e_cobot_bringup/environment/ament_prefix_path.sh

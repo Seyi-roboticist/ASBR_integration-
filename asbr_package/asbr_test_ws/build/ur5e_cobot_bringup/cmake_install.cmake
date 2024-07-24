@@ -46,6 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ur5e_cobot_bringup" TYPE DIRECTORY FILES
     "/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/src/ur5e_cobot_bringup/rviz"
     "/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/src/ur5e_cobot_bringup/launch"
+    "/home/srobot/ASBR_integration-/asbr_package/asbr_test_ws/src/ur5e_cobot_bringup/config"
     )
 endif()
 

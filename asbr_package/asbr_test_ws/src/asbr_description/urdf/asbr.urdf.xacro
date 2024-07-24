@@ -16,6 +16,7 @@
     <xacro:arg name="force_abs_paths" default="false"/>
     
     <!-- Necessary modules (macros) to use-->
+    <xacro:include filename="$(find asbr_description)/urdf/ur5e_ros2_control.xacro"></xacro:include>
     <xacro:include filename="$(find ur_description)/urdf/ur.urdf.xacro"/>
     <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model.xacro"/>
     <xacro:include filename="$(find realsense2_description)/urdf/_d435.urdf.xacro"/>
@@ -53,4 +54,5 @@
     <xacro:sensor_d435 parent="tool0" name="d435" use_nominal_extrinsics="true" add_plug="true" use_mesh="true"> <!-- The parent can also be camera_link -->
         <origin xyz="0.0 -0.06 0.0" rpy="-1.5708 -1.5708 0"/>
     </xacro:sensor_d435>
+
 </robot>
