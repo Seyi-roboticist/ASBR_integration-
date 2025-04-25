@@ -2,55 +2,6 @@
 
 This repo provides a clean integration for the ASBR package, including URDF descriptions and visualizations for various robotic components. The integration includes support for Universal Robots, Robotiq grippers, and RealSense cameras. Please be aware this integration is still currently under development.
 
-## Repository Structure
-
-```
-ASBR_integration-/
-├── asbr_package/
-│ └── asbr_test_ws/
-│ ├── src/
-│ │ ├── asbr_description/
-│ │ │ ├── config/
-│ │ │ ├── launch/
-│ │ │ ├── rviz/
-│ │ │ └── urdf/
-│ │ │ ├── CMakeLists.txt
-│ │ │ └── package.xml
-│ │ ├── realsense2_description/
-│ │ │ ├── .github/
-│ │ │ ├── launch/
-│ │ │ ├── meshes/
-│ │ │ ├── rviz/
-│ │ │ └── urdf/
-│ │ │ ├── CMakeLists.txt
-│ │ │ └── package.xml
-│ │ ├── robotiq_description/
-│ │ │ ├── robotiq/
-│ │ │ ├── robotiq_2f_85_gripper_visualization/
-│ │ │ │ ├── launch/
-│ │ │ │ ├── meshes/
-│ │ │ │ └── urdf/
-│ │ │ │ ├── robotiq_adapter.xacro
-│ │ │ │ ├── robotiq_arg2f_85_model_macro.xacro
-│ │ │ │ ├── robotiq_arg2f_85_model.xacro
-│ │ │ │ ├── robotiq_arg2f_transmission.xacro
-│ │ │ │ └── robotiq_arg2f.xacro
-│ │ │ ├── CMakeLists.txt
-│ │ │ └── package.xml
-│ ├── build/
-│ ├── install/
-│ └── log/
-├── .gitignore
-├── CONTRIBUTING.md
-├── Intel Copyright
-├── LICENSE
-├── NOTICE.md
-├── README.md
-└── security.md
-
-
-```
-
 ## Cloning the Repository
 
 To get started, clone the repository using the following command:
